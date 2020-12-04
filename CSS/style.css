@@ -3,8 +3,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .hero-bg{
-    background: white url('../images/image11.jpg');
+    background: white url('../images/image1.jpg');
+    background-position:5% 20% ;
+    background-attachment: fixed;
     color: black;
     text-align: center;
     padding: 4em;
+
 }
