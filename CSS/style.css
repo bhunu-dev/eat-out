@@ -30,9 +30,9 @@ body{
     font-weight: bold;
 }
 .menu ul li{
-    width: 80px;
-    margin: 8px;
-    padding:8px;
+    width: 4em;
+    margin: .5em;
+    padding:1em;
 }
 .middle{
     text-align: center;
@@ -70,5 +70,50 @@ input[type=text]{
     border: 1px solid grey;
     width: 100%;
     padding: 1em;
+    box-sizing: border-box;
     border-radius:1em;
+    margin-top: 1.2 em;
+}
+.form-container p{
+    color: grey;
+    margin-top:.4em ;
+    margin-bottom: 1.5em;
+    font-weight:normal ;
+    font-size: .9em;
+}
+input[type=button]{
+    background-color: #ca0d0d;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: 1em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background-color: #830808;
+}
+.Our-Dish{
+    margin: 0;
+}
+.right-col{
+    text-align: center;
+    margin: 3em 1em;
+}
+h2{
+    text-transform: uppercase;
+}
+.Our-Dish img{
+    width: 100%;
+}
+p{
+    line-height: 2em;
+
+}
+@media (min-width:730px;){
+    .middle{
+        margin:0 4em;
+    }
 }
