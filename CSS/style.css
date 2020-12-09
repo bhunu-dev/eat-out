@@ -1,13 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .hero-bg{
-    background: white url('../images/image1.jpg');
-    background-position:5% 20% ;
-    background-attachment: fixed;
-    color: black;
+    background: white url('../images/image14.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.menu{
+    background:#eeb53a;
     text-align: center;
-    padding: 4em;
+    
+}
+.menu ul{
+    display: inline-flex;
+    text-decoration: none;
+    list-style:none;
+    color: rgb(15, 15, 15);
+    
+}
+.hero-bg a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu ul li{
+    width: 80px;
+    margin: 8px;
+    padding:8px;
+}
+.middle{
+    text-align: center;
+    color: white;
+    padding: 8em 3em 8em;
+    
+}
+h1{
+    font-size: 2.5rem;
+    margin: 2em 0;
+}
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.2rem;
 
+}
+.hero-bg p{
+    font-weight: bold;
+    margin: 0 1em 3em;
+}
+.form-container{
+    background: white;
+    margin: 2em -3em 0;
+    padding: 2em;
+}
+label{
+    color: grey;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+    font-size:1.2em;
+}
+input[type=text]{
+    border: 1px solid grey;
+    width: 100%;
+    padding: 1em;
+    border-radius:1em;
 }
